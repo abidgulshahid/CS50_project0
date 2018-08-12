@@ -1,0 +1,70 @@
+body {
+  background-color: whitesmoke; }
+
+@media (max-width: 400px) {
+  h1, p, ul, div {
+    display: none; }
+
+  h1, p, ul, div {
+    content: "This Page Is Not For Smaller Mobiles"; } }
+#heading {
+  background-color: whitesmoke !important;
+  color: black;
+  border-bottom: 1px dashed black; }
+
+#main {
+  background-color: whitesmoke !important;
+  border: 1px solid black;
+  margin-left: 15%;
+  color: black;
+  border-radius: 5px; }
+
+#main ul li {
+  display: block; }
+
+#main ul > li > a::before {
+  content: "Click Here=> "; }
+
+#main ul li a::before {
+  content: "Click HERE=> "; }
+
+#main ul > li > a {
+  color: black; }
+
+.collection {
+  margin-top: 20px;
+  font-weight: bolder; }
+
+table {
+  margin-bottom: 20px; }
+
+table, td, th {
+  border: 1px dashed black; }
+
+td, th {
+  padding: 6px; }
+
+a {
+  color: black; }
+
+#navbar {
+  border: 1px solid black;
+  margin-top: 10px;
+  border-radius: 4px; }
+
+.active {
+  border-bottom: 1px solid black; }
+
+#navbar a:hover {
+  color: black; }
+
+hr {
+  background-color: black; }
+
+footer {
+  border-top: 2px dashed black;
+  margin-top: 3%; }
+
+/*# sourceMappingURL=index.css.map */
+
+/*# sourceMappingURL=index.css.map */
